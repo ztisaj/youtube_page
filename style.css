@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+header {
+    max-height: 56px;
+    max-width: 100%;
+    padding: 0 10px 13px 10px;
+    margin: 15px 5px 0 5px;
+    border-bottom: 1px solid #f7f7f7;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.sticky {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.lijevo {
+    display: inline-flex;
+    flex-direction: row;
+    position: static;
+    max-width: 20%;
+    margin-right: auto;
+}
+
+.sredina {
+    display: inline-block;
+    width: 50%;
+    max-height: 56px;
+    margin-left: auto;
+    margin-right: 125px;
+}
+
+.form {
+    height: 26px;
+    width: 80%;
+    padding: 2px 6px 2px 15px;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    box-shadow: inset 0 1px 2px #f3f3f3;
+    font-size: 15px;
+    font-weight: 100;
+    float: left;
+    margin-right: 0;
+}
+
+.btn {
+    height: 32px;
+    width: 65px;
+    padding: 6px 7px 2px 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #f8f8f8;
+    margin-left: 0;
+    
+}
+
+.povecalo {
+    height: 13px;
+    width: 13px;
+}
+
+.ikona {
+    height: 18px;
+    margin-left: 16px;
+}
+
+.logo {
+    height: 18px;
+    width: 80px;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.desno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 15%;
+    position: relative;
+}
+
+.ikone {
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+    float: right;
+    margin-left: auto;
+}
+
+.border {
+    border-top: 3px solid #f9f9f9;
+}
+/* glavni container */
+
+.container {
+    width: 100%;
+    margin: 0 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+}
+
+.video {
+    width: 860px;
+    margin-right: 0;
+}
+
+.ispod_videa {
+    display: flex;
+    flex-direction: column;
+    width: 860px;
+    height: 60px;
+    padding: 20px 0 8px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.naslov {
+    height: 24px;
+    font-size: 18px;
+}
+
+.views {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.thumb {
+    width: 15px;
+    height: 15px;
+}
+
+.data,
+.svijetlo {
+    color: #707070;
+    padding: 8px;
+}
+
+.data {
+    font-size: 13px;
+}
+
+.svijetlo {
+    font-size: 15px;
+    padding-left: 0;
+}
+
+.right {
+    display: flex;
+    float: right;
+    margin-left: auto;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding-top: 16px;
+    margin-bottom: 12px;
+    align-items: center;
+    width: 860px;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    margin-right: 12px;
+}
+
+.slovo_t {
+    color: white;
+    background: #689f3a;
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+
+.published {
+    font-size: 13px;
+    color: #707070;
+}
+
+.button {
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #ea3f33;
+    color: white;
+    height: 36px;
+    width: 137px;
+    font-size: 14px
+}
+
+.info {
+    width: 640px;
+    margin-left: 58px;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+.show_more {
+    margin-top: 8px;
+    color: #707070;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.profile_info {
+    width: 860px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 24px;
+}
+
+.ten_comments {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 860px;
+    height: 23px;
+    margin-bottom: 24px;
+}
+
+.poredaj {
+    margin-left: 30px;
+}
+
+.sort {
+    color: #707070;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.add_comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment {
+    line-height: 20px;
+    font-size: 14px;
+    width: 810px;
+    border: 1px solid white;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 5px;
+}
+
+/** komentari **/
+
+.people {
+    display: flex;
+    flex-direction: row;
+    width: 860px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.komentar {
+    display: flex;
+    flex-direction: column;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+}
+
+.imena {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.vrijeme {
+    color: #707070;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.komentiraj {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.lajkaj {
+    display: flex;
+    flex-direction: row;
+    line-height: inherit;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.mali_thumbs {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.broj {
+    font-size: 13px;
+    margin-right: 10px;
+    color: #707070;
+}
+
+
+.videi {
+    display: flex;
+    flex-direction: column;
+    width: 402px;
+    padding-left: 24px;
+}
+
+.next {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.autoplay {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 0;
+    line-height: 15px;
+}
+
+.auto {
+    font-size: 13px;
+    color: #888;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/** autoplay toggle **/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 14px;
+}
+
+.switch input {display:none;}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    top: -3px;
+    bottom: 3px;
+    background-color: #909090;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #ccc;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #ccc;
+}
+
+input:checked + .slider:before {
+    transform: translateX(16px);
+    background-color: #065fd4;
+}
+
+.slider.round {
+    border-radius: 20px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/** play next videos **/
+
+.video_desno {
+    display: flex;
+    flex-direction: row;
+    width: 402px;
+    height: 94px;
+    margin-bottom: 14px;
+}
+
+.next_video {
+    width: 168px;
+    height: 94px;
+}
+
+.name_video {
+    display: flex;
+    flex-direction: column;
+    height: 94px;
+    margin-left: 10px;
+}
+
+.ime_videa {
+    line-height: 18px;
+    font-size: 14px;
+    word-break: normal;
+    margin-bottom: 5px;
+}
+
+.ime_osobe {
+    line-height: 18px;
+    font-size: 13px;
+    color: #a0a0a0;
+}
+
+.break {
+    margin-bottom: 14px;
+    border-top: 1px solid #eeeeee;
+}
+
+.end {
+    text-align: center;
+    font-size: 13px;
+    color: #9d9d9d;
+    background-color: #eeeeee;
+    height: 35px;
+    margin-top: 0px;
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
